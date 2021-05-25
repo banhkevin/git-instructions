@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GitHub IDIOT</title>
+        <link href='style.css' rel="stylesheet">
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    </head>
+    <body>
+        <h1>How to use GitHub you idiot</h1>
+
+        <ol>
+            <li><input type="checkbox"> Open Command Line program</li>
+            <li><input type="checkbox"> Change into the directory you're working in.</li>
+            <li><input type="checkbox"> Login to GitHub</li>
+            <li><input type="checkbox"> Create a new repository, use the same name as the directory you're working in</li>
+            <li><input type="checkbox"> Copy and paste the instructions that GitHub gives you into the Command Line</li>
+            <li><input type="checkbox"> After copying and pasting everything, type the following into the Command Line:</li>
+            <li><input type="checkbox"> <span class='command'>git init</span> (git starts tracking)</li>
+            <li><input type="checkbox"> <span class='command'>git add .</span> (adds all files to staging area)</li>
+            <li><input type="checkbox"> <span class='command'>git commit -m '(add information here)'</span> (commits changes)</li>
+            <li><input type="checkbox"> <span class='command'>git push</span> (sends files off to github)</li>
+        </ol>
+
+        <h2>Git Command Line Commands</h2>
+        <ul>
+            <li><span class='command'>git init</span> creates a new Git repository</li>
+            <li><span class='command'>git status</span> inspects the contents of the working directory and staging area</li>
+            <li><span class='command'>git add .</span> adds ALL files from the working directory to the staging area</li>
+            <li><span class='command'>git add [filename_1] [filename_2]</span> adds one or multiple files from the working directory to the staging area</li>
+            <li><span class='command'>git diff</span> shows the difference between the working directory and the staging area</li>
+            <li><span class='command'>git commit -m '[message]'</span> permanently stores file changes from the staging area in the repository with a message</li>
+            <li><span class='command'>git log</span> shows a list of all previous commits</li>
+            <li><span class='command'>git show head</span> will show you the recently made commit</li>
+            <li><span class='command'>git checkout HEAD [filename]</span> will restore the file in your working directory to look exactly as it did when you last made a commit.</li> 
+            <li><span class='command'>git reset HEAD [filename]</span> resets a file in the staging area to be the same as the HEAD commit</li>
+            <li><span class='command'>git reset [commit_SHA]</span> allows you to rewind to a specific commit. You can view all the commits with sha numbers using <span class='command'>git log</span>. You only need the first 7 alphanumeric characters.</li>
+        </ul>
+
+    </body>
+
+</html>
